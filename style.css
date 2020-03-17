@@ -1,0 +1,25 @@
+.toggle {
+  display: none;
+}
+.hover {
+  background: red;
+}
+.postion {
+  position: relative;
+}
+.displayBlock {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -93%;
+  z-index: 9;
+  background: beige;
+  padding: 10px;
+  font-size: 18px;
+  transition: all 5s;
+}
+.displayNone {
+  display: none;
+}
